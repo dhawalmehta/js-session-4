@@ -23,7 +23,7 @@ require("normalize.css");
 const theme = createTheme({
   primary: "white",
   secondary: "#1F2022",
-  tertiary: "#ffbf60",
+  tertiary: "#6091ff",
   quarternary: "#333"
 }, {
   primary: "Montserrat",
@@ -39,14 +39,15 @@ export default class Presentation extends React.Component {
             Javascript Course
           </Heading>
           <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            Session 3 - 10th April, 2018
+            Session 4 - 13th June, 2018
           </Text>
         </Slide>
 
         <Slide transition={["fade"]} bgColor="tertiary">
           <Heading size={6} textColor="primary" caps>Session Target</Heading>
-          <Heading size={5} textColor="secondary">Recap</Heading>
-          <Heading size={5} textColor="secondary">Functions</Heading>
+          <Heading size={5} textColor="secondary">Recap - Functions</Heading>
+          <Heading size={5} textColor="secondary">Loops</Heading>
+          <Heading size={5} textColor="secondary">Events</Heading>
           <Heading size={5} textColor="secondary">Q&A</Heading>
           <Heading size={5} textColor="secondary">Assignment Questions</Heading>
         </Slide>
@@ -54,7 +55,7 @@ export default class Presentation extends React.Component {
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
           <Heading size={3} textColor="secondary" caps fit>Recap:</Heading>
           <List>
-            <ListItem>ternary operator</ListItem>
+            <ListItem>functions and functiona scopes </ListItem>
             <ListItem>difference between switch and if-else</ListItem>
           </List>
         </Slide>
